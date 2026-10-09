@@ -852,3 +852,44 @@
 .project-info h3 {
     margin-top: 8px;
 }
+
+
+```css
+/* Fix Skills and Contact section overlap */
+.skills {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin-bottom: 0;
+}
+
+.skill-grid {
+    position: relative;
+    width: 100%;
+}
+
+.contact {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    padding: 90px 20px;
+    text-align: center;
+    background: var(--pale-pink);
+    z-index: 1;
+}
+```
+
+.skill-grid h3 {
+    line-height: 1.2;
+    overflow-wrap: break-word;
+}
+
+.skill-grid p {
+    line-height: 1.7;
+    overflow-wrap: break-word;
+}
